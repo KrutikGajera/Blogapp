@@ -1,0 +1,93 @@
+
+
+/* Login style */
+.content
+{
+    width: 300px;
+    margin-left: 38%;
+    height: 400px;
+    padding-top: 10%;
+}
+
+.contenttext
+{
+  color: rgb(20, 20, 20);
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.title1
+{
+    color: rgb(27, 24, 24);
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 0px 15px;
+  
+}
+
+.textbox
+{
+  text-align: left;
+  display: flex;
+  margin-left: 15px;
+  width: 250px;
+} 
+.gap
+{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Signup Form */
+
+.contentsign
+{
+    width: 400px;
+    margin-left: 38%;
+    height: 550px;
+}
+
+.textbox1
+{
+  text-align: left;
+  display: flex;
+  margin-left: 15px;
+  width: 340px;
+}
+
+.content2
+{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 643px;
+}
+.backimg1
+{
+    background-repeat: no-repeat;
+    background-image: url('https://wallpapers.com/images/high/white-christmas-in-winter-82n7x2vx82r8cj9n.webp');
+    background-position: center;
+    background-size: cover;
+}
+.submit
+{
+  background-color: gold;
+}
+.submit:hover{
+  background-color: gold;
+}
+.gendername
+{
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.buttonfamaily
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

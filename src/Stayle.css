@@ -1,0 +1,185 @@
+.content1
+{
+    width: 600px;
+}
+.nav
+{
+    background-color: rgb(215, 247, 247);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.navbar-nav
+{
+    align-content: center;
+    margin: auto;
+}
+.p1
+{
+    padding-top: 70px;
+}
+.btn1
+{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: rgba(200, 198, 198, 0.908);
+    color:black;
+    font-weight: 600;
+}
+.btn1:hover
+{
+    background-color:grey;
+    color:white;
+}
+.profile-img
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(44, 43, 43);
+    cursor: pointer;
+    opacity: 0.7;
+}
+.profile-img::before
+{
+    border-radius: 50%;
+    border: 5px solid rgb(248, 6, 6);
+}
+.profile-img:hover
+{
+    opacity: 1;
+}
+
+.profile-button
+{
+    width: 80px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.profile-name
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    font-size : 15px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.profile-name:hover
+{
+    color:red;
+    font-size: 17px;
+}
+.cardalign
+{
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+.card-header
+{
+    height: 50px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+.username
+{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-inline: 10px;
+}
+.user
+{
+    margin-top: 4px;
+    align-items: center;
+}
+.card
+{
+    width: 30rem;
+    align-items: center;
+}
+.card-img-top
+{
+    height: 350px;
+    width: 400px;
+    object-fit: fill;
+}
+
+.card-footer
+{
+    width: 480px;
+}
+
+.cursor
+{
+    cursor: pointer;
+}
+
+.textbox
+{
+    font-size: 12px;
+    width: 440px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.textboxpadding
+{
+    padding-bottom: 10px;
+}
+
+
+/* Bloghome  page*/
+
+.content2
+{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 643px;
+}
+.backimg
+{
+    background-repeat: no-repeat;
+    background-image: url('https://wallpapers.com/images/high/white-christmas-in-winter-82n7x2vx82r8cj9n.webp');
+    background-position: center;
+    background-size: cover;
+}
+.welcome
+{
+    padding-top: 15%;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(246, 140, 35);
+    text-transform: capitalize;
+    text-shadow: 3px 2px rgb(131, 127, 127);
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn2
+{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit
+{
+  background-color: gold;
+  color: black;
+}
