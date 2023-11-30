@@ -7,19 +7,19 @@ import Img from "./Image";
 import MapData from "./MapData";
 
 function Home() {
-
   return (
     <div>
       <section>
         <div className="container-fluid">
           <nav className="navbar navbar-expand nav">
             <div className="navbar-nav">
-              {
-                Categories.map((val)=>
-                {
-                  return(<><a className="btn btn1">{val.cat}</a></>)
-                })
-              }
+              {Categories.map((val) => {
+                return (
+                  <>
+                    <a className="btn btn1">{val.cat}</a>
+                  </>
+                );
+              })}
             </div>
             <a className="profile-name profile-button" href="#">
               Krutik
